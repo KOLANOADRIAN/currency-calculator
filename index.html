@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wymiana walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./container.css">
+    <link rel="stylesheet" type="text/css" href="./form.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script defer src="./script.js"></script>
+</head>
+<!-- STRONA WYKONANA W RAMACH ĆWIACZEŃ Z JS -->
+<body>
+    <div class="container">
+        <h1 class="container__h1">EXCHANGE</h1>
+        <form class="container__form">
+            <fieldset class="container__formField">
+                <legend class="form__legend">EXCHANGE</legend>
+                <p class="form__text1">WYMAGANE *</p>
+                <label class="form__label">
+                    <span class="form__labelText">Wprowadz kwotę w PLN*:</span>
+                    <select class="form__selectStart">
+                        <!-- <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="JUP">JPY</option> -->
+                        <option value="PLN">PLN</option>
+                    </select>
+                </label>
+                <label class="form__labelInput"> Kwota
+                    <input class="form__labelInput--start" value="" required type=" number" step="any" name="hight"
+                        minlength="2">
+                </label>
+                <hr>
+                <label class="form__label">
+                    <span class="form__labelText">CHCĘ OTRZYMAĆ*:</span>
+                    <select class="label__selectFinish">
+                        <!-- <option value="PLN" >PLN</option> -->
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                    </select>
+                </label>
+                <button class="form__button">Przelicz</button>
+                <button type="reset" class="reset form__button">Wyczyść</button>
+                <p>
+                    <span class="form__result js-result"></span>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<footer class="footer">&copy; Adrian Kolano 2020. </footer>
+
+</html>
