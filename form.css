@@ -24,11 +24,11 @@ li {
     list-style: none;
 }
 
-.form__text1 {
+.form__caption {
     font-size: 12px;
 }
 
-.form__labelText {
+.form__labelCaption {
     display: inline-block;
     width: 100%;
     margin-right: 5px;
@@ -57,7 +57,7 @@ li {
         margin: 0;
     }
 }
-.form__labelInput {
+.form__inputLabel {
     margin-left: 7rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -65,7 +65,7 @@ li {
 
 
 @media (max-width:767px) {
-    .form__labelInput {
+    .form__inputLabel {
         margin: 0;
     }
 }

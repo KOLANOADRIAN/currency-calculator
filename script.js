@@ -1,10 +1,9 @@
 console.log("Cześć Developerze :)");
 
-let container__form = document.querySelector(".container__form");
-let form__selectStart = document.querySelector(".form__selectStart");
-let form__labelInputStart = document.querySelector(".form__labelInput--start")
-let label__selectFinish = document.querySelector(".label__selectFinish");
-let form__labelInputFinish = document.querySelector(".form__labelInput--finish");
+let container__form = document.querySelector(".Js--container__form");
+let form__selectStart = document.querySelector(".Js--form__selectStart");
+let form__labelInputStart = document.querySelector(".Js--form__labelInput")
+let label__selectFinish = document.querySelector(".Js--label__selectFinish");
 let resultValue = document.querySelector(".js-result");
 
 let EUR = 4.4418;
